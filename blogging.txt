@@ -1,0 +1,10 @@
+
+Project - Simply Blogging
+
+Steps :
+
+1. I Created a file index.htnl were is the home page were user can read other blog 
+2. Next we created postcard.html were the user can enter the post which they want to share thier knowledge
+3. When we click the post your article a pop up appears (I used modals for pop's) 
+4. After posting the user can close the popup and return to the homepage to view thier article by clicking return to the homepage button
+5. All user can post or share thier knowledge here. 
