@@ -16,7 +16,7 @@
             background-color: black;
         }
         .mycarousel{
-            height: 80vh;
+            height: 350px;
             width: 100%;
             image-resolution: 1080px;
         }
@@ -24,10 +24,14 @@
     </style>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="position: fixed; width: 100%;" >
+    <header>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bloggy</a>
+            <h1 style="color:lightcyan;"> My Blogging Website</h1>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Blogging Website Content</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,13 +51,13 @@
           </div>
         </div>
       </nav>
-      <h1  style="color:lightcyan;">SIMPLY BLOGGING </h1>
-      <h2  style="color:red; text-align: center;">Clicking Here to post article: <a href="postcard.html"><h4>Post your article</h4></a>
-      </h2>
+      <h1  style="color:lightcyan;">Welcome to Your blogging Website!! </h1>
+      <h3  style="color:lightcyan; text-align: center;"> Post any article By Clicking Here: <a href="postcard.html"><h4>Post your article</h4></a>
+      </h3>
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="blog1.jpg" class="mycarousel"  alt="...">
+            <img src="pexels-pixabay-256514.jpg" class="mycarousel"  alt="...">
           </div>
           <div class="carousel-item">
             <img src="Blog2.jpg" class="mycarousel" alt="...">
@@ -75,10 +79,10 @@
           
       </div>
         
-          <footer style="text-align: center; ">
+          <footer style="text-align: center;">
             &copy; Copyright 2021 my Blogging website
             <p >Contact me:
-                <a href="mailto:mysimplyblogging@example.com">blogy@blog.com</a>
+                <a href="mailto:mymeals@example.com">Mysimpleblogging@example.com</a>
             </p>
         </footer>
 
